@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecolectApple</string>
+    <string name="title_activity_play">RecolectApple</string>
+    <string name="recolecta_manzanas">RecolectApple</string>
+    <string name="recolectadas">Manzanas recolectadas:</string>
+    <string name="record">Record:</string>
+    <string name="title_activity_game_over">Game Over</string>
+    <string name="action_settings">Settings</string>
+</resources>
