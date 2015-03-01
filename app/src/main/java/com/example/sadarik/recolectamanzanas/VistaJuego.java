@@ -85,16 +85,16 @@ public class VistaJuego  extends SurfaceView implements SurfaceHolder.Callback  
             ((Activity) context).finish();
         }
         if(vidas==1){
-            canvas.drawBitmap(vida, 700, 32, null);
+            canvas.drawBitmap(vida, getWidth()-60, 32, null);
 
         }if (vidas==2){
-            canvas.drawBitmap(vida, 700, 32, null);
-            canvas.drawBitmap(vida2, 650, 32, null);
+            canvas.drawBitmap(vida,  getWidth()-60, 32, null);
+            canvas.drawBitmap(vida2, getWidth()-110, 32, null);
         }
         if (vidas==3){
-            canvas.drawBitmap(vida, 700, 32, null);
-            canvas.drawBitmap(vida2, 650, 32, null);
-            canvas.drawBitmap(vida3, 600, 32, null);
+            canvas.drawBitmap(vida, getWidth()-160, 32, null);
+            canvas.drawBitmap(vida2, getWidth()-110, 32, null);
+            canvas.drawBitmap(vida3, getWidth()-60, 32, null);
         }
 
         for (int j=0;j<manzanas.length;j++){
